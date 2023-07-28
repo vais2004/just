@@ -10,7 +10,6 @@ body{
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-   
     width: 100%;
 }
 
@@ -86,7 +85,7 @@ border-bottom-left-radius: 1rem;
 }  
 .ow{
     background-color: var(--off-white);
-}
+    }
 
 /**footer**/
 
