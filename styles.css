@@ -1,33 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
---primary-color: rgb(249, 197, 56);
---dark-gray: rgb(107, 114, 128);
---off-white: rgba(116, 116, 116, 0.224);
+    --primary-color: rgb(249, 197, 56);
+    --dark-gray: rgb(107, 114, 128);
+    --off-white: rgba(116, 116, 116, 0.224);
 }
 
-body{
+body {
     background-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     width: 100%;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
 /**spaces**/
-.margin-md{
+.margin-md {
     margin: 2rem;
 }
 
 /**container**/
-.container{
-padding: 0rem 1rem;
+.container {
+    padding: 0rem 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 900px;
     width: 100%;
     margin: auto;
@@ -42,10 +42,10 @@ padding: 0rem 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
-font-weight: bold;
-font-size: 1.1rem;
-border-bottom-left-radius: 1rem;
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 /**header**/
@@ -56,24 +56,24 @@ border-bottom-left-radius: 1rem;
     text-align: center;
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     display: block;
 }
- 
-.hero .hero-heading{
+
+.hero .hero-heading {
     text-align: center;
-    padding-top: 1rem ;
-    color: var(--dark-gray);  
+    padding-top: 1rem;
+    color: var(--dark-gray);
 }
 
-.hero .hero-heading .heading-inverted{
+.hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
 /**sections**/
 
-.section{
+.section {
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 1rem;
@@ -82,14 +82,15 @@ border-bottom-left-radius: 1rem;
 
 .section h1 {
     text-align: center;
-}  
-.ow{
+}
+
+.ow {
     background-color: var(--off-white);
-    }
+}
 
 /**footer**/
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -98,16 +99,16 @@ border-bottom-left-radius: 1rem;
 
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer .footer-header{
+.footer .footer-header {
     font-weight: bold;
     font-size: large;
 
 }
 
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
 }
